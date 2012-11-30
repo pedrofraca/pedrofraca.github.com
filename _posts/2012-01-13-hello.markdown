@@ -1,0 +1,12 @@
+---
+layout: post
+title: Hello!
+date: 2012-02-15 17:00:00 +00:00
+categories:
+  - meta
+---
+Salir de la zona de confort resulta ser una aventura para el cerebro. Un nuevo aprendizaje supone un esfuerzo. Este esfuerzo se ve recompensado con una nueva disciplina aprendida y un cerebro mas preparado para el cambio. 
+
+Actualmente yo me encuentro dentro de este proceso al estar aprendiendo dvorak y emacs, las razones para aprender son obvias: mejorar, perfeccionar, ser mas productivo ... ,En cambio no tenemos en cuenta que las consecuencias no solo seran haber aprendido algo sino tambien haber entrenado a nuestro cerebro para que este mas preparado al cambio y entrenado para aprender mas rapido. 
+
+Conclusión: Perfección, mejora. Sal de tu zona de confort cada día.

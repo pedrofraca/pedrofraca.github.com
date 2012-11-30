@@ -1,0 +1,7 @@
+## Site author's information.
+permalink:  /:year/:month/:title
+source: https://github.com/pedrofraca/pedrofraca.github.com
+server: true
+pygments: true
+auto: true
+url: http://pedrofraca.github.com
