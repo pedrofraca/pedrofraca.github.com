@@ -6,13 +6,21 @@ categories: kotlin android ios native
 ---
 This is the first post of a series where I’ll be talking about the usage of kotlin native for sharing code between Android, iOS, and potentially backend as well. Note to the reader: this is not a finalized project and I’m working on it in small steps, this might cause that not everything is perfect, and things can change as I’m working on them. Feel free to contact me if you find anything that doesn’t work as expected.
 
+{:refdef: style="text-align: center;"}
+![Complete arch diagram](/assets/tour-app.png){:height="400px" width="400px"}
+{: refdef}
+
+Art made by [monkik][monkik-web] from [flaticon][flaticon-web] 
+
+
 Overal Architecture explained
 ---------------
 
 The main objective of the project as said is to use [Kotlin native][kotlin-native] to share some business logic between iOS and Android. We’ll implement the same app in both platforms as well as implementing new features in coming posts where we’ll analyze the cons/pros and how quickly new features can be developed. Please take a look at the following diagram where you can see what’s the intended final architecture.
 
+{:refdef: style="text-align: center;"}
 ![Complete arch diagram](/assets/overallArch.png)
-
+{: refdef}
 
 Creating the shared module
 ---------------
@@ -147,7 +155,7 @@ actual class StagesRepositoryFactory actual constructor() {
 Connecting it with the apps
 ---------------
 
-Now the next step is to use all that logic from the apps. Once included the dependencies, we can access the interfaces and the models that these two layers are exporting to the outside world. In Android we’re going to create three modules:
+Now the next step is to use all that logic from the apps. Once included the dependencies, we can access the interfaces and the models that these two layers are exporting to the outside world. In Android we’re going to create three modules, here the [repo][android-repo]:
 
 - Framework : This layer is going to be the one implementing the data sources. We’re going to use room for persistence on android and retrofit as the library to connect to the API. We wanted to isolate the API calls in another module, called API.
 
@@ -157,7 +165,9 @@ Now the next step is to use all that logic from the apps. Once included the depe
 
 On iOS we created a simpler dependency management and everything is on the same project as of now, we also used [Rx][rx-swift] in order to manage the orchestration of the datasources and just UrlSession for the API connection. Here you can take a look to the [repository] [tour-app-ios-repo]. 
 
+{:refdef: style="text-align: center;"}
 ![iOS app](/assets/iosApp.png)
+{: refdef}
 
 [SwiftUI] [swift-ui] is used to build the UI for iOS, the UI is inspired in the App Store design and implemented using what's explanied in the following [video][app-store-tutorial], and view model approach as well to translate the information from the datasource to the UI, here a fragment of the orchestration that happens in the view model in swift.
 
@@ -195,3 +205,6 @@ Please, feel free to write comments in this blog post as well as raise any issue
 [app-store-tutorial]: https://www.youtube.com/watch?v=o31ZzGuW-1M&list=WL&index=50&t=371s
 [clean-arch]: https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
 [rx-swift]: https://github.com/ReactiveX/RxSwift
+[monkik-web]: https://www.flaticon.com/authors/monkik
+[flaticon-web]: www.flaticon.com
+[android-repo]: https://github.com/pedrofraca/tourapp/tree/master/TourApp

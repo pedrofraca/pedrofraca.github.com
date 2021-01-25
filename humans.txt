@@ -1,16 +1,11 @@
----
-layout: nil
----
 /* the humans responsible & colophon */
 /* humanstxt.org */
 
 
 /* TEAM */
-  {{ site.author.title }}: {{ site.author.name }}
-  Site: {{ site.author.site }}
-  Twitter: @{{ site.author.twitter }}
-  Location: {{ site.author.location }}
-
+  Pedro Fraca
+  Site: https://http://pedrofraca.github.io/humans.txt
+  
 /* THANKS */
   Names (& URL): 
 
