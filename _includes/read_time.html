@@ -3,6 +3,6 @@
     {{ page.content | number_of_words | minus: 250 }}
   {% endcapture %}
   {% unless words contains "-" %}
-    You should be ready with is in {{ words | plus: 250 | divided_by: 180 | append: " minutes" }}
+    You should be ready with this in {{ words | plus: 250 | divided_by: 180 | append: " minutes" }}
   {% endunless %}
 </h3>
