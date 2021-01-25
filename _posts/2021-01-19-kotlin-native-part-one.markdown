@@ -7,7 +7,7 @@ categories: kotlin android ios native
 This is the first post of a series where I’ll be talking about the usage of kotlin native for sharing code between Android, iOS, and potentially backend as well. Note to the reader: this is not a finalized project and I’m working on it in small steps, this might cause that not everything is perfect, and things can change as I’m working on them. Feel free to contact me if you find anything that doesn’t work as expected.
 
 {:refdef: style="text-align: center;"}
-![Complete arch diagram](/assets/tour-app.png){:height="400px" width="400px"}
+![App logo](/assets/tour-app.png){:height="400px" width="400px"}
 {: refdef}
 
 Art made by [monkik][monkik-web] from [flaticon][flaticon-web] 
