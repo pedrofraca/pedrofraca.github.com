@@ -42,7 +42,7 @@ func shell(launchPath: String, arguments: [String], readOutput : Bool) -> String
 
     let data = pipe.fileHandleForReading.readDataToEndOfFile()
     guard let output = String(data: data, encoding: String.Encoding.utf8) else { return "" }
-
+    
     return output
 }
 
