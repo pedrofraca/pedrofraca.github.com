@@ -12,10 +12,10 @@ The current set up I'm using to write the code explained in this blog and the bl
 
 - 2 x 2,93 GHz 6-Core Intel Xeon
 - 64 GB 1333 MHz DDR3
-- NVIDIA GeForce GT 630 2 GB
-- 23 inches Apple Cinema Display
+- Radeon RX 460/560 4 GB
+- 2 x 23 inches Apple Cinema Display
 - NVMExpress drive
-- Mac OS Mojave (still thinking on invest on upgrading [WiFi][wifi] to be able to upgrade to Big Sur)
+- Mac OS Big Sur (Installed using the [SurPlus] [SurPlus] setup with OpenCore)
 
 I use [Dvorak] [dvorak] keyboard distribution which makes me to write faster and annoys people when they try to write using my computer.
 
@@ -24,4 +24,4 @@ Enjoy!
 ![My beloved mac](/assets/mac.png)
 
 [dvorak]: https://en.wikipedia.org/wiki/Dvorak_keyboard_layout
-[wifi]: https://crystalidea.com/blog/classic-mac-pro-wifi-bluetooth-upgrade
+[SurPlus]: https://github.com/reenigneorcim/SurPlus
