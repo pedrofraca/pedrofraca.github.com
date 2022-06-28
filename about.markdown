@@ -15,7 +15,7 @@ The current set up I'm using to write the code explained in this blog and the bl
 - Radeon RX 460/560 4 GB
 - 2 x 23 inches Apple Cinema Display
 - NVMExpress drive
-- Mac OS Big Sur (Installed using the [SurPlus] [SurPlus] setup with OpenCore)
+- Mac OS Monterey (12.4) (Installed using the [SurPlus] [SurPlus] setup with OpenCore)
 
 I use [Dvorak] [dvorak] keyboard distribution which makes me to write faster and annoys people when they try to write using my computer.
 
