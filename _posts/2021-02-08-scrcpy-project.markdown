@@ -5,7 +5,7 @@ date:   2021-02-05 00:38:24 +0100
 categories: mac android swift
 ---
 
-After our first post about kotlin native, we're back and this time we'll talk about implementing a macOS app that will be the UI connection with the command line tool [scrcpy] [scrcpy], this tool is an easy way to mirror your android device in your computer. Long time ago I thought that would be great to have a mac status bar app that can allow users to easily execute the tool, this status bap app will automatically recognize any device connected (using [adb] [adb]) and just launch the tool when the user clicks on the desired device. 
+After our first post about kotlin native, we're back and this time we'll talk about implementing a macOS app that will be the UI connection with the command line tool [scrcpy][scrcpy], this tool is an easy way to mirror your android device in your computer. Long time ago I thought that would be great to have a mac status bar app that can allow users to easily execute the tool, this status bap app will automatically recognize any device connected (using [adb][adb]) and just launch the tool when the user clicks on the desired device. 
 
 Since it turned out to be a really simple an funny application I decided to open source [it][repo-url], since every project has to have a nice logo, I created this one after a few iterations with Gimp. Believe it or not, but my inspiration was the anarchy symbol.
 
